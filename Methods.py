@@ -76,7 +76,7 @@ def even_times(lists):
 
 
 def tell_me(lists):
-    new_num = int(input("Give me a number boyo! "))
+    new_num = int(input("Give me a number boyo and i'll tell you if its in the list or not!"))
     for i in lists:
         if i == new_num:
             return True
